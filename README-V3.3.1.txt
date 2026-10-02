@@ -1,1 +1,5 @@
-Money Goals V3.3.1 Performance Hotfix\n- App-only update: do NOT change Code.gs or redeploy Apps Script.\n- Instant local UI remains.\n- Removes automatic full-sheet reload after every save.\n- Deduplicates pending queue operations.\n- Goal funding uses stable transaction IDs to reduce duplicate retry risk.\n- Manual Sync still pulls latest Google Sheets data.\n- Service worker cache bumped.\n
+Money Goals V4 — Savings Wallets
+1) Code.gs: วางทับ Apps Script เดิม แล้ว Deploy > Manage deployments > Edit > New version > Deploy
+2) เปิด /exec ต้องเห็น apiVersion 4.0
+3) อัป GitHub: index.html, sw.js, manifest.webmanifest, icon.svg, icon-192.png, icon-512.png, apple-touch-icon.png
+4) ไม่ต้องสร้างชีต Savings เอง — สร้างให้แล้วใน Google Sheet เดิม
